@@ -1,0 +1,88 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: 2.7 64 Check exists",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": ["python.conf.json", "2.7", "64", "--check-exists"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 3.10 32 Check exists",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": ["python.conf.json", "3.10", "32", "--check-exists"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 3.10 64 Check exists",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": ["python.conf.json", "3.10", "64", "--check-exists"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 3.10 64 Has modules sys,os, re, json ",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": [
+        "python.conf.json",
+        "3.10",
+        "64",
+        "--has-modules",
+        "sys,os,re,json"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 3.10 64 Has modules sys,os,re,scipy ",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": [
+        "python.conf.json",
+        "3.10",
+        "64",
+        "--has-modules",
+        "sys,os,re,scipy"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 2.7 32 Has modules sys,os,re,scipy ",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": [
+        "python.conf.json",
+        "2.7",
+        "32",
+        "--has-modules",
+        "sys,os,re,scipy"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: 2.7 64 Has modules sys,os,re,scipy ",
+      "type": "python",
+      "request": "launch",
+      "program": "python_support.py",
+      "args": [
+        "python.conf.json",
+        "2.7",
+        "64",
+        "--has-modules",
+        "sys,os,re,scipy"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
